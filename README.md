@@ -52,10 +52,6 @@ flowchart LR
 - 此版本不提供排程式批次測試、統計圖表或自動解析吞吐量報表。可手動重複啟動工作。
 - 本專案沒有附上原始測試 log、內部試算表或客戶資料，也不宣稱已量化節省工時、降低錯誤率或完成跨平台驗證。
 
-## 開發與整理說明
-
-工具開發過程使用 AI 協助產生與修改程式。作品呈現的重點是測試流程的工具化與功能整合；不主張所有程式均由本人從零手寫。本次作品集整理也使用 AI 協助文件編寫、程式檢查與測試，修正項目另列於[變更紀錄](CHANGELOG.md)。
-
 ## 驗證
 
 從專案根目錄執行：
@@ -64,6 +60,6 @@ flowchart LR
 python -m unittest discover -s tests -v
 ```
 
-測試涵蓋 NV 換算邊界、非法輸入、CSV 一致性，以及 iPerf 指令建構與 log 建立流程。iPerf 使用替身程序驗證，不啟動網路壓測。實際通過項目與未驗證範圍記錄於[驗證紀錄](docs/verification.md)。
+測試涵蓋 NV 換算邊界、非法輸入、CSV 一致性，以及 iPerf 指令建構與 log 建立流程。iPerf 使用替身程序驗證，不啟動網路壓測。實際通過項目與未驗證範圍記錄於[驗證紀錄](docs/verification.md)，修正項目見[變更紀錄](CHANGELOG.md)。
 
 本專案尚未指定開放原始碼授權；第三方 iPerf3 依其自身授權提供。公開展示與授權方式的差異可參考 [GitHub 授權說明](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository)。
