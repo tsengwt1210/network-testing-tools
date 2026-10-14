@@ -1,0 +1,6 @@
+* text=auto
+*.py text eol=lf
+*.md text eol=lf
+*.yml text eol=lf
+# Preserve the historical source byte for byte.
+legacy/NV_tool_3G.py -text

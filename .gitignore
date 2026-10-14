@@ -1,0 +1,32 @@
+# Python / local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local test output and exported data
+logs/
+*_port*.txt
+*.log
+*.csv
+*.xlsx
+*.xls
+*.qcn
+*.bin
+
+# Third-party binaries are obtained separately
+*.exe
+*.dll
+
+# Local editor settings and secrets
+.vscode/
+.idea/
+.env
+.env.*
+*.pem
+*.key
+Thumbs.db
+.DS_Store
